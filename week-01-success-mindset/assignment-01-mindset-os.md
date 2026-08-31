@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+Learning is a Gradual Process. Consistency is Key
 
 ---
 
