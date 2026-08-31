@@ -23,18 +23,18 @@ Take a screenshot of your interaction showing:
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
+![Task 1 Screenshot](<screenshots/Task 1.png>)
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](<screenshots/Task 1a.png>)
 
-
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
+![Task 1 Screenshot](<screenshots/Task 1c.png>)
 
 ---
 
 ## What I Learned (2–3 lines)
+Networking protocol is a set of rules that devices follow to communicate and exchange data over a network.
 
-Add your answer here...
+Examples include HTTP/HTTPS for websites, SSH for remote server access, and DNS for translating domain names into IP addresses.
 
 ---
 
@@ -59,7 +59,15 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+### How Data Travels Over a Network
+
+When we send data over a network, **packet switching** is used to break the data into smaller pieces called packets. These packets can travel through different routes and are reassembled at the destination.
+
+Each device on a network has an **IP address**, which acts like a unique address that helps identify where data should be sent and received.
+
+**TCP/IP** is a collection of networking protocols that controls how data is addressed, transmitted, and delivered reliably across networks. TCP helps ensure that packets arrive correctly and in the right order, while IP handles addressing and routing.
+
+For web communication, **HTTP** is used to transfer information between a browser and a web server. **HTTPS** is the secure version of HTTP, which encrypts the communication to protect sensitive information such as passwords and personal data.
 
 ---
 
@@ -91,10 +99,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
-
-
-Replace `task-3-diagram.png` with your actual diagram file name.
+![Application Architecture Diagram](<screenshots/epicreads_architecture_diagrams.png>)
 
 ---
 
@@ -102,18 +107,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML/CSS
+* React/Angular
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Django
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* MongoDB
 
 ---
 
@@ -142,7 +147,11 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+### DNS and DNS Record Type
+
+**DNS (Domain Name System)** is like the internet’s phonebook. It translates easy-to-remember domain names, such as **epicreads.com**, into IP addresses that computers use to locate servers.
+
+For EpicReads, an **A (Address) record** should be used to connect **epicreads.com** to the IPv4 address **52.172.142.222**. The A record maps a domain name directly to an IPv4 address. However, DNS does not normally specify the port **3000**, so the application would still need to be accessed through a setup that forwards or proxies traffic to port 3000.
 
 ---
 
@@ -178,10 +187,9 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](<screenshots/Power dir.png>)
 
-
-Replace `task-5-vscode.png` with your actual screenshot file name.
+![VS Code Setup Screenshot](<screenshots/Theme Changed.png>)
 
 ---
 
@@ -213,41 +221,25 @@ Add the following credit note at the end of your post:
 
 ---
 
-## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-```text
-Add your URL here...
-```
-
----
-
-## LinkedIn Post Backup Copy
-
-Paste the full text of your LinkedIn post here:
-
-Add your post content here...
-
----
 
 # Reflection – Week 0
 
 ### What did you find easy?
 
-Add your answer here...
+The Task was easy because it was well explanatory
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+No Difficulties 
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+My Timing used on Task
 
 ---
 
