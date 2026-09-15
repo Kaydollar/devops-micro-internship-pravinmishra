@@ -80,6 +80,7 @@ mkdir -p .claude/skills/deploy
 **Screenshots Required:**
 - Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
+![alt text](<../screenshots/1. claude and skills created.png>)
 ---
 
 ### Task 2 — Add the Skill Files
@@ -100,7 +101,11 @@ mkdir -p .claude/skills/deploy
 
 **Screenshots Required:**
 - Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
+
+![alt text](image.png)
 - Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
+
+![alt text](image-1.png)
 ---
 
 ### Task 3 — Run /scaffold-terraform
@@ -122,8 +127,11 @@ mkdir -p .claude/skills/deploy
 
 **Screenshots Required:**
 - Screenshot 4 — Claude's response showing the scaffold complete with the file list
+
+![alt text](image-2.png)
 - Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
+![alt text](image-3.png)
 ---
 
 ### Task 4 — Run terraform init then /tf-plan
@@ -153,6 +161,7 @@ Then in Claude Code:
 **Screenshots Required:**
 - Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
+![alt text](image-4.png)
 ---
 
 ## 8. Industry Insight
