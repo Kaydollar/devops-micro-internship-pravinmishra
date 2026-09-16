@@ -77,6 +77,7 @@ mkdir -p .claude/agents
 **Screenshots Required:**
 - Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
+![alt text](image-5.png)
 ---
 
 ### Task 2 — Compare the Agent Configurations
@@ -89,15 +90,26 @@ mkdir -p .claude/agents
 3. Open `tf-writer.md` — note the `tools` and `model` fields
 4. Write a short answer (2–3 sentences each) to these 3 questions:
    - Why does the cost optimizer use Haiku instead of Sonnet?
+
+   *Haiku is faster and less expensive than Sonnet, making it suitable for straightforward cost-analysis tasks. Using Haiku helps reduce API costs while still providing enough capability for the job.*
+
    - Why does the security auditor NOT have Write in its tools list?
+
+   *The security auditor is designed to inspect and report security issues, not modify files or infrastructure. Removing Write helps enforce a read-only approach and prevents accidental changes during auditing.*
+
    - Why does the tf-writer use `inherit` instead of a specific model?
+
+   *inherit allows the tf-writer skill to use the model already selected by the main Claude Code session. This keeps the skill flexible and avoids unnecessarily forcing a particular model when the user's current model may already be appropriate.*
 
 **Expected Output:** 3 written answers in your GitHub Repository folder showing you understand the design decisions behind each agent.
 
 **Screenshots Required:**
 - Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
+
+![alt text](image-6.png)
 - Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
+![alt text](image-7.png)
 ---
 
 ### Task 3 — Run the Security Auditor
@@ -119,8 +131,12 @@ Audit my Terraform files for security issues.
 
 **Screenshots Required:**
 - Screenshot 4 — The delegation message showing Claude launched the security-auditor
+
+![alt text](image-8.png)
+
 - Screenshot 5 — Security audit report output
 
+![alt text](<5. Audit result-1.png>)
 ---
 
 ### Task 4 — Run the Cost Optimizer
@@ -142,6 +158,7 @@ Review my Terraform infrastructure for cost optimization.
 **Screenshots Required:**
 - Screenshot 6 — The full cost optimization report
 
+![alt text](<6. Cost Optimization.png>)
 ---
 
 ## 8. Industry Insight
