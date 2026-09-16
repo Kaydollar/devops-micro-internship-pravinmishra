@@ -79,6 +79,7 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
+![alt text](image-9.png)
 ---
 
 ### Task 2 — Create .mcp.json at the Project Root
@@ -108,6 +109,7 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
+![alt text](image-10.png)
 ---
 
 ### Task 3 — Add Your Token to settings.local.json
@@ -135,6 +137,7 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
+![alt text](image-11.png)
 ---
 
 ### Task 4 — Verify the Connection with /mcp
@@ -156,6 +159,7 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 4 — `/mcp` output showing `github: connected`
 
+![alt text](image-12.png)
 ---
 
 ## Task 5 — Run a Live GitHub Query
@@ -186,6 +190,9 @@ Use GitHub MCP to get the README.md file from <your-github-username>/Ultimate-Ag
 
 * Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
+![alt text](image-13.png)
+
+![alt text](image-14.png)
 ---
 
 ## 8. Industry Insight
