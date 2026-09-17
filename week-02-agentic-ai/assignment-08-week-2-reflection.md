@@ -48,13 +48,14 @@ You can publish your blog on:
 
 Add your screenshot here.
 
+![alt text](image.png)
 ---
 
 ### Submission Field
 
 Blog Link:
 
-`Add your URL here`
+https://kolawole.hashnode.dev/reflection-blog
 
 ---
 
