@@ -77,6 +77,7 @@ Where does your memory file live for this project? Show me the full path.
 **Screenshots Required:**
 - Screenshot 1 — Memory file path shown by Claude
 
+![alt text](<../screenshots/memory location.png>)
 ---
 
 ### Task 2 — Give Claude Information to Remember
@@ -97,8 +98,11 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 
 **Screenshots Required:**
 - Screenshot 2 — Claude confirming the memory was saved
+
+![alt text](<../screenshots/saved memory.png>)
 - Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
+![alt text](image-17.png)
 ---
 
 ### Task 3 — Close the Session Completely
@@ -121,6 +125,7 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 **Screenshots Required:**
 - Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
+![alt text](image-18.png)
 ---
 
 ### Task 4 — Prove Memory Recall Across Sessions
@@ -151,6 +156,7 @@ Should I add a JavaScript animation to the hero section?
 - Screenshot 5 — Claude recalling hero section colors
 - Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
+![alt text](image-19.png)
 ---
 
 ## 8. Industry Insight
