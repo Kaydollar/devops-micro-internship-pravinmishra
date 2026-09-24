@@ -20,13 +20,13 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+![alt text](image.png)
 
 ---
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+![alt text](image-1.png)
 
 ---
 
@@ -34,7 +34,11 @@ Add your screenshot here.
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
+Git is a distributed Version Control System (VCS) used to track changes made to files over time. It allows developers to record the history of a project, collaborate with others, recover previous versions of files, and manage different lines of development without overwriting each other's work.
+
+Unlike traditional file management, where multiple copies of the same project are created (e.g., project_v1, project_final, project_final_final), Git stores every change as part of the project's history. This makes it easy to see who made a change, when it was made, why it was made, and even restore previous versions if necessary.
+
+Git is widely used in software development because it enables teams to collaborate efficiently while maintaining a complete history of the project.
 
 ---
 
@@ -48,8 +52,7 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
-
+![alt text](image-2.png)
 ---
 
 # Task 3 — Configure Git Identity Globally
@@ -62,7 +65,7 @@ Set a global Git username and email for this machine using `git config --global`
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![alt text](image-3.png)
 
 ---
 
